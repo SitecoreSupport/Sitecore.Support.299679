@@ -48,7 +48,7 @@
 
     public void Delete(IIndexable indexable, IProviderUpdateContext context)
     {
-      context.Delete(indexable.Id);
+      context.Delete(indexable.UniqueId);
     }
 
     public void Delete(IIndexableId id, IProviderUpdateContext context)

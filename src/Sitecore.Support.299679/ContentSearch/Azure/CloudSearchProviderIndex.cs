@@ -13,7 +13,7 @@
     {
     }
 
-    public override IIndexOperations Operations => new CloudSearchIndexOperations(this);
+    public override IIndexOperations Operations => new Sitecore.Support.ContentSearch.Azure.CloudSearchIndexOperations(this);
 
   }
 }
