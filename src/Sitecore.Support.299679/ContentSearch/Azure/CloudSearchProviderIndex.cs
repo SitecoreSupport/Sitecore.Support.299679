@@ -1,6 +1,7 @@
 ﻿namespace Sitecore.Support.ContentSearch.Azure
 {
   using Sitecore.ContentSearch;
+  using Sitecore.ContentSearch.Azure;
   using Sitecore.ContentSearch.Maintenance;
 
   /// <summary>
@@ -10,6 +11,10 @@
   {
     public CloudSearchProviderIndex(string name, string connectionStringName, string totalParallelServices, IIndexPropertyStore propertyStore)
       : base(name, connectionStringName, totalParallelServices, propertyStore)
+    {
+    }
+
+    public CloudSearchProviderIndex(string name, string connectionStringName, string totalParallelServices, IIndexPropertyStore propertyStore, ICloudSearchProviderIndexName cloudSearchProviderIndexName) : base(name, connectionStringName, totalParallelServices, propertyStore, cloudSearchProviderIndexName)
     {
     }
 

@@ -51,7 +51,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Azure">
-      <HintPath>..\packages\SC.Sitecore.ContentSearch.Azure.9.0.2\lib\Sitecore.ContentSearch.Azure.dll</HintPath>
+      <HintPath>..\..\lib\Sitecore.ContentSearch.Azure.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.ContentSearch.Linq">
